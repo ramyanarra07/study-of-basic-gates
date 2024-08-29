@@ -63,17 +63,29 @@ Y= A⊕B
 
 
 **PROGRAM**
-
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:NARRA RAMYA
+ RegisterNumber: 212223040128
  
-**Logic symbol & Truthtable**
-
+module ramya(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+assign c = a&b;
+assign d = a|b;
+assign e = a^b;
+assign x = ~(a&b);
+assign y = ~(a&b);
+assign z = ~(a&b);
+endmodule
+```
 **RTL realization Output:** 
+![Screenshot 2024-08-29 144546](https://github.com/user-attachments/assets/5f26207d-4966-4fbc-aa01-99a5d210c9d1)
 
 **RTL**
+![image](https://github.com/user-attachments/assets/b4487092-0a24-4dd6-aa82-92710d55c275)
 
 **Result:**
 
-
+The program is verified successfully using the software quartus prime
